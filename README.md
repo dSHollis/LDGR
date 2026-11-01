@@ -79,7 +79,7 @@ python -m ldgr.analyze --since 2026-01-01 --by vendor --top 10
 
 ## Capture setup
 
-See [`docs/shortcut.md`](docs/shortcut.md) for building the Siri Shortcut and [`docs/desktop.md`](docs/desktop.md) for the desktop button.
+See [`docs/shortcut.md`](docs/shortcut.md) for building the Siri Shortcut.
 
 ## Repo layout
 
@@ -93,8 +93,7 @@ ldgr/
 │   └── analyze.py     # queries, tables, plots
 ├── docs/
 │   ├── schema.md
-│   ├── shortcut.md
-│   └── desktop.md
+│   └── shortcut.md
 ├── examples/
 │   ├── make_sample.py        # regenerates the fake data
 │   └── sample_ledger.jsonl   # fake data only
